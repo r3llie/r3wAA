@@ -1,6 +1,7 @@
 h1 {
   color: #323643;
   font-family: "IBM Plex Sans", sans-serif;
+  margin-top: 15px;
 }
 
 ul {
@@ -20,6 +21,10 @@ li {
 body {
   background-color: #e4f1fe;
 }
+img {
+  position: relative;
+  bottom: 13px;
+}
 
 .weather-app {
   padding: 30px;
@@ -32,15 +37,20 @@ body {
   margin: 30px auto;
 }
 .temp {
+  position: relative;
+  left: 8px;
+  bottom: -3px;
   font-family: "Orbitron", sans-serif;
   font-size: small;
 }
 .temp-number {
-  font-size: 50px;
+  font-size: 55px;
 }
 .col-6 {
   margin-top: 0;
 }
 .fahrenheit {
+  color: grey;
   position: relative;
+  bottom: 30px;
 }
