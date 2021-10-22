@@ -57,10 +57,10 @@
             </div> 
           </div>
 
-          <h1>New York</h1>
+          <h1 id="city-element">New York</h1>
           <ul>
             <li>Wednesday 4:00</li>
-            <li>Partly cloudy</li>
+            <li id="weather-description">Partly cloudy</li>
           </ul>
 
           <div class="row">
@@ -72,7 +72,7 @@
               />
 
               <span class="temp">
-                <span class="temp-number">
+                <span class="temp-number" id="number-temp">
                   62</span>
                 <span class="fahrenheit">°F</span>
               </span>
@@ -80,9 +80,8 @@
 
             <div class="col-6">
               <ul>
-                <li>Precipitation: 0%</li>
-                <li>Humidity: 80%</li>
-                <li>Wind: 3km/h</li>
+                <li>Humidity: <span id="humidity-number">80</span>%</li>
+                <li>Wind: <span id="wind-number">3</span>km/h</li>
               </ul>
             </div>
           </div>
