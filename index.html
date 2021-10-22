@@ -7,6 +7,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300&family=IBM+Plex+Sans:wght@100;300;500&family=Orbitron&family=Rajdhani:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
       href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300&family=IBM+Plex+Sans:wght@100;300;500&family=Rajdhani:wght@300;400&display=swap"
       rel="stylesheet"
     />
@@ -33,6 +39,24 @@
     <div class="container">
       <div class="weather-app-wrapper">
         <div class="weather-app">
+          <div class="row">
+            <div class="col-9">
+              <form id="search-form">
+              <input
+                type="search"
+                placeholder="Type a city name..."
+                class="form-control"
+              /></div>
+            <div class="col-3">
+              <input
+                type="submit"
+                value="search"
+                class="btn btn-primary"
+                id="search-button"
+              /></form>
+            </div> 
+          </div>
+
           <h1>New York</h1>
           <ul>
             <li>Wednesday 4:00</li>
@@ -43,8 +67,13 @@
             <div class="col-6">
               <img
                 src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
-                alt="Clear"
-              /><strong>60</strong>°F
+                alt="Partly cloudy"
+              />
+
+              <span class="temp"
+                ><span class="temp-number"><strong>62</strong></span class="fahrenheit"
+                >°F</span
+              >
             </div>
 
             <div class="col-6">
