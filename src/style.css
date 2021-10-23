@@ -17,7 +17,8 @@ li {
   margin: 0;
   padding: 0;
   color: #34495e;
-  line-height: 1.3;
+  line-height: 1.4;
+  letter-spacing: 0.8px;
 }
 li::first-letter {
   text-transform: capitalize;
@@ -40,11 +41,11 @@ body {
   position: relative;
   left: 8px;
   bottom: -3px;
-  font-family: "Orbitron", sans-serif;
-  font-size: small;
+  font-family: "Chivo", sans-serif;
+  font-size: x-large;
 }
 .temp-number {
-  font-size: 64px;
+  font-size: 80px;
 }
 .col-6 {
   margin-top: 0;
@@ -53,7 +54,8 @@ body {
 .fahrenheit {
   color: grey;
   position: relative;
-  bottom: 30px;
+  bottom: 40px;
+  left: -10px;
 }
 
 .main-icon {
@@ -67,10 +69,16 @@ body {
 .weather-forecast-date {
   font-size: 16px;
   color: #323643;
+  opacity: 0.7;
 }
 .weather-forecast-temp {
   font-size: 13px;
 }
 .weather-forecast-low {
   opacity: 0.5;
+  font-family: "Chivo", sans-serif;
+}
+.weather-forecast-high {
+  font-weight: bold;
+  font-family: "Chivo", sans-serif;
 }
