@@ -28,13 +28,14 @@ body {
 }
 
 .weather-app {
-  padding: 30px;
+  display: block;
+  padding: 25px;
   border: solid 1px #d9dad7;
   border-radius: 5px;
   background-color: white;
 }
 .weather-app-wrapper {
-  max-width: 600px;
+  max-width: 800px;
   margin: 30px auto;
 }
 .temp {
@@ -87,11 +88,11 @@ body {
   margin-top: 10px;
   background-color: #f7f7f7;
 }
-.btn-primary {
-  margin-top: 10px;
-  padding-left: 23px;
-  padding-right: 23px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  font-weight: bold;
+.btn {
+  margin-top: 8px;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 13px 0;
+  border: none;
+  height: 50px;
 }
