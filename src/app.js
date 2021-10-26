@@ -80,6 +80,8 @@ function displayTemperature(response) {
   humidity.innerHTML = response.data.main.humidity;
   let wind = document.querySelector("#wind-number");
   wind.innerHTML = Math.round(response.data.wind.speed);
+  let feelTemp = document.querySelector("#feels");
+  feelTemp.innerHTML = response.data.main.feels_like;
   let date = document.querySelector("#date-element");
   date.innerHTML = formatDate(response.data.dt * 1000);
   let icon = document.querySelector("#current-icon");

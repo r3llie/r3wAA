@@ -26,6 +26,9 @@ li::first-letter {
 body {
   background-color: #e4f1fe;
 }
+hr {
+  margin-top: 0;
+}
 
 .weather-app {
   display: block;
